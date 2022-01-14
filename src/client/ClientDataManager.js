@@ -79,7 +79,7 @@ class ClientDataManager {
             channel = new StoreChannel(guild, data);
             break;
         }
-        if (channel !== null) {
+        if (channel != null) {
           guild.channels.set(channel.id, channel);
         }
       }
